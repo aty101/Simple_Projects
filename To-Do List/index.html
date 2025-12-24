@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>To Do List</h1>
+      <section class="add-activity-section">
+        <input
+          type="text"
+          placeholder="Add your activity"
+          class="add-activity-input"
+        />
+        <button class="add-button" aria-label="Add task">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </section>
+      <section class="activities-section">
+        <h2>My Activities</h2>
+        <ul class="activities-list">
+          <li class="activities-list-item">
+            <div>
+              <input type="checkbox" />
+              <div>Code</div>
+            </div>
+            <button>
+              <i class="fa-solid fa-trash"></i>
+            </button>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
