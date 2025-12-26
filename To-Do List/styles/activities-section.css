@@ -47,8 +47,25 @@
 }
 .task-info input[type="checkbox"] {
   cursor: pointer;
+  accent-color: var(--third-color);
 }
 .task-info span {
-  padding-left: 10px;
   color: rgba(0, 0, 0, 0.7);
+}
+
+.task-info {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.edit-task {
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
