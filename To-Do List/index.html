@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/add-section.css" />
+    <link rel="stylesheet" href="styles/activities-section.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
   </head>
   <body>
-    <main>
-      <h1>To Do List</h1>
+    <main class="container">
+      <h1 class="header">To Do List</h1>
       <section class="add-activity-section">
         <input
           type="text"
@@ -27,16 +30,18 @@
         <h2>My Activities</h2>
         <ul class="activities-list">
           <li class="activities-list-item">
-            <div>
+            <div class="task-info">
               <input type="checkbox" />
-              <div>Code</div>
+              <span>Code</span>
             </div>
-            <button>
+            <button class="delete-button">
               <i class="fa-solid fa-trash"></i>
             </button>
           </li>
         </ul>
       </section>
     </main>
+    <script src="scripts/add-activity.js"></script>
+    <script src="scripts/handleActivityClick.js"></script>
   </body>
 </html>

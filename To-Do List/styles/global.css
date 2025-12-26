@@ -1,0 +1,28 @@
+:root {
+  --primary-color: #bde8f5;
+  --secondry-color: #4988c4;
+  --third-color: #1c4d8d;
+  --header-color: #0f2854;
+
+  --box-shadow: 0 8px 32px 0 var(--third-color);
+
+  --font-size: 1rem;
+  --h2-size: 1.5rem;
+  --h1-size: 2rem;
+
+  --border-radius: 10px;
+}
+
+body {
+  background: linear-gradient(
+    45deg,
+    var(--primary-color),
+    var(--secondry-color)
+  );
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
